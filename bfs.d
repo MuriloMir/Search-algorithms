@@ -110,7 +110,7 @@ void main()
                 visited.predecessor = current;
 
                 // if the visited node is not in the queue and it is not the destination node
-                if (!canFind(queue, visited) && visited !is destination)
+                if (!canFind(queue, visited) && visited != destination)
                     // append the visited node to the queue
                     queue ~= visited;
             }
