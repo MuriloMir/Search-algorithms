@@ -7,10 +7,10 @@ import std.stdio : write, writeln;
 // this structure will represent a branch in the graph
 struct Branch
 {
-    // these are the nodes which form the branch
-    Node start, end;
     // this is the weight of the branch
     float weight;
+    // these are the nodes which form the branch
+    Node start, end;
 
     // this is the constructor
     this (Node start, Node end, float weight)
