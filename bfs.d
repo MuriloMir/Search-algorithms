@@ -1,4 +1,4 @@
-// this software implements the BFS algorithm, here we use the words branch (edge) and node (vertex) 
+// this software implements the BFS algorithm, here we use the words branch (edge) and node (vertex)
 
 // import the tools we need
 import std.algorithm : canFind;
