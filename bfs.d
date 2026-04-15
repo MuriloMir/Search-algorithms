@@ -48,7 +48,7 @@ class Node
 
         // if it has a predecessor
         if (this.predecessor !is null)
-            // print the name of the predecessor
+            // print a space and the name of the predecessor
             writeln(' ', this.predecessor.name);
         // else, meaning it doesn't have a predecessor
         else
